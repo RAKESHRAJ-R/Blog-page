@@ -1,0 +1,74 @@
+/* Full page background */
+body {
+  background: #000; /* Pure black */
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Superbikes Container */
+.superbike-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(145deg, #0a0a0a, #1c1c1c);
+  color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 90, 0.5), 0 0 40px rgba(0, 255, 255, 0.2);
+}
+
+/* Title */
+.superbike-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #ff0057, #00ffe7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+/* Bike list */
+.superbike-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.superbike-list li {
+  font-size: 1.3rem;
+  margin: 15px 0;
+  padding: 15px 20px;
+  background: #141414;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 90, 0.3);
+  color: #e6e6e6;
+  box-shadow: inset 0 0 8px rgba(255, 0, 90, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
+}
+
+.superbike-list li:hover {
+  transform: scale(1.05);
+  border-color: #00ffe7;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+/* Back Button */
+.back-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 20px;
+  background: linear-gradient(90deg, #ff0057, #00ffe7);
+  color: #0a0a0a;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.back-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+}

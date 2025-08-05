@@ -11,7 +11,7 @@ const Home = () => {
           Whether you love superbikes, cruisers, or adventure rides, we’ve got content 
           that fuels your passion.
         </p>
-        <a href="/Blogpage" className="explore-btn">Explore Blogs</a>
+        <a href="/blog" className="explore-btn">Explore Blogs</a>
       </div>
     </div>
   );
